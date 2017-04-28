@@ -10,6 +10,7 @@ namespace shapes {
 	public:
 		void ReadDimensionsOfShapeFromFileStream(ifstream &inFileStream);
 		void WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream);
+		float CalculateShapePerimeter();
 		circle() {}
 	};
 }
