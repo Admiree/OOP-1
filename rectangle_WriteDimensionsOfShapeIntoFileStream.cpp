@@ -5,6 +5,6 @@ using namespace std;
 
 namespace shapes {	
 	void rectangle::WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream) {
-		outFileStream << "start X = " << startX << ", start Y = " << startY << ", end X = " << endX << ", end Y = " << endY;
+		outFileStream << "Rectangle;  It's Dimensions : " << "start X = " << startX << ", start Y = " << startY << ", end X = " << endX << ", end Y = " << endY;
 	}
 } 

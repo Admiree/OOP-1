@@ -28,8 +28,15 @@ int main(int argc, char* argv[]) {
 	list.LoadElements(in);
 	out << "Filled container. " << endl << endl;
 	list.PrintElements(out);
-	list.Clear();
+
+	out << endl << endl;
+
+	out << "Only Rectangle. " << endl << endl;
+	list.PrintRectangleElements(out);
+
+	out << endl << endl;
 	out << "Empty container. " << endl << endl;
+	list.Clear();
 	list.PrintElements(out);
 
 	cout << "Stop" << endl;

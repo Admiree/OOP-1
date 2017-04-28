@@ -10,9 +10,9 @@ namespace shapes {
 	shape* shape::ReadInfoAboutShapeFromFileStream(ifstream &inFileStream) {
 		shape *readShape;
 		int key;
-		int _color;
+		int color;
 		inFileStream >> key;
-		inFileStream >> _color;
+		inFileStream >> color;
 
 		switch (key) {
 		case 1:
@@ -26,7 +26,7 @@ namespace shapes {
 			break;
 		}
 
-		readShape->color = _color;
+		readShape->color = color;
 
 		readShape->ReadDimensionsOfShapeFromFileStream(inFileStream);
 

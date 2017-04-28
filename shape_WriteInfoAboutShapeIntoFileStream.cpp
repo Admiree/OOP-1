@@ -11,16 +11,7 @@ namespace shapes {
 
 		outFileStream << "It is ";
 
-		switch (shape->key) {
-		case 1:
-			outFileStream << "Rectangle";
-			break;
-		case 2:
-			outFileStream << "Circle";
-			break;
-		default:
-			break;
-		}
+		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
 		outFileStream << "; Its color is ";
 
@@ -47,10 +38,6 @@ namespace shapes {
 			outFileStream << "MAGNETA";
 			break;
 		}
-
-		outFileStream << "; And its dimensions are: ";
-
-		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
 		outFileStream << ";" << endl;
 	}
