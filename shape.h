@@ -6,16 +6,17 @@
 
 using namespace std;
 
-namespace shapes {	
+namespace shapes {
 	class shape {
 		int key = 0;
-	int color = 0;
-	public:		
+		int color = 0;
+		float plotn = 0;
+	public:
 		static  shape* ReadInfoAboutShapeFromFileStream(ifstream &inFileStream);
 		static void WriteInfoAboutShapeIntoFileStream(shape *shape, ofstream &outFileStream);
 
 		virtual void ReadDimensionsOfShapeFromFileStream(ifstream &inFileStream) = 0;
-		virtual void WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream) = 0;	
+		virtual void WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream) = 0;
 	};
 }
 

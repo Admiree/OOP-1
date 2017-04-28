@@ -4,25 +4,18 @@
 #include "rectangle.h"
 #include "circle.h"
 
+
 using namespace std;
 
 namespace shapes {
 	void shape::WriteInfoAboutShapeIntoFileStream(shape *shape, ofstream &outFileStream) {
 
-		outFileStream << "It is ";
+		outFileStream << "It is: ";
 
-		switch (shape->key) {
-		case 1:
-			outFileStream << "Rectangle";
-			break;
-		case 2:
-			outFileStream << "Circle";
-			break;
-		default:
-			break;
-		}
+		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
 		outFileStream << "; Its color is ";
+
 
 		switch (shape->color) {
 		case 1:
@@ -48,9 +41,7 @@ namespace shapes {
 			break;
 		}
 
-		outFileStream << "; And its dimensions are: ";
-
-		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
+		outFileStream << "; Its plotnost is " << shape->plotn << "  ";
 
 		outFileStream << ";" << endl;
 	}
