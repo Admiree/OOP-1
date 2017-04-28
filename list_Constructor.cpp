@@ -1,8 +1,8 @@
 #include "stdafx.h"
 #include "list.h"
 
-namespace shapes {	
-	void list::Clear()  {
+namespace shapes {
+	void list::Clear() {
 		while (listHead != NULL) {
 			listElement *temp = listHead->next;
 			delete listHead;
@@ -10,8 +10,8 @@ namespace shapes {
 		}
 		listLength = 0;
 	}
-	void list::Init()  {		
+	void list::Init() {
 		listHead = NULL;
 		listLength = 0;
 	}
-} 
+}

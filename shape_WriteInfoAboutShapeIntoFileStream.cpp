@@ -41,7 +41,10 @@ namespace shapes {
 			break;
 		}
 
+
 		outFileStream << "; Its plotnost is " << shape->plotn << "  ";
+
+		outFileStream << "; Its perimeter is " << shape->CalculateShapePerimeter();
 
 		outFileStream << ";" << endl;
 	}

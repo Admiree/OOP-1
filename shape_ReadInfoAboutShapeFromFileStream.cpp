@@ -11,11 +11,11 @@ namespace shapes {
 	shape* shape::ReadInfoAboutShapeFromFileStream(ifstream &inFileStream) {
 		shape *readShape;
 		int key;
-		int _color;
+		int color;
 		float plotn;
 
 		inFileStream >> key;
-		inFileStream >> _color;
+		inFileStream >> color;
 
 
 		switch (key) {
@@ -31,7 +31,8 @@ namespace shapes {
 		}
 
 		readShape->key = key;
-		readShape->color = _color;
+		readShape->color = color;
+
 
 
 		readShape->ReadDimensionsOfShapeFromFileStream(inFileStream);
