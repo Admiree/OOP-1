@@ -1,12 +1,13 @@
 Filled container. 
 
-List contents 6 elements.
-6: It is ; Its color is GREEN; And its dimensions are: radius = 32, center X = 54, center Y = 64;
-5: It is ; Its color is BLUE; And its dimensions are: start X = 10, start Y = 65, end X = 43, end Y = 56;
-4: It is ; Its color is MAGNETA; And its dimensions are: radius = 50, center X = 13, center Y = 17;
-3: It is ; Its color is MAGNETA; And its dimensions are: radius = 10, center X = 15, center Y = 20;
-2: It is ; Its color is MAGNETA; And its dimensions are: start X = 10, start Y = 20, end X = 30, end Y = 440;
-1: It is ; Its color is MAGNETA; And its dimensions are: start X = 10, start Y = 20, end X = 30, end Y = 440;
+List contents 7 elements.
+7: It is: Triangle;  It's Dimensions : X = 3, Y = 3, Z = 3; Its color is ORANGE;
+6: It is: Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN;
+5: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE;
+4: It is: Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA;
+3: It is: Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA;
+2: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA;
+1: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA;
 Empty container. 
 
 List contents 0 elements.

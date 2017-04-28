@@ -3,24 +3,17 @@
 
 #include "rectangle.h"
 #include "circle.h"
+#include "triangle.h"
 
 using namespace std;
 
 namespace shapes {
 	void shape::WriteInfoAboutShapeIntoFileStream(shape *shape, ofstream &outFileStream) {
 
-		outFileStream << "It is ";
 
-		switch (shape->key) {
-		case 1:
-			outFileStream << "Rectangle";
-			break;
-		case 2:
-			outFileStream << "Circle";
-			break;
-		default:
-			break;
-		}
+		outFileStream << "It is: ";
+
+		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
 		outFileStream << "; Its color is ";
 
@@ -48,9 +41,6 @@ namespace shapes {
 			break;
 		}
 
-		outFileStream << "; And its dimensions are: ";
-
-		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
 		outFileStream << ";" << endl;
 	}
