@@ -28,8 +28,35 @@ int main(int argc, char* argv[]) {
 	list.LoadElements(in);
 	out << "Filled container. " << endl << endl;
 	list.PrintElements(out);
-	list.Clear();
+
+
+	out << endl << endl;
+	cout << "Done!" << endl;
+	int enter = 0;
+
+	do {
+		cout << "How to sort output? Please, enter (1 - increase; 2 - decrease):" << endl;
+		cin >> enter;
+		if (enter != 1 && enter != 2) {
+			cout << "Error! Only 1 and 2!" << endl;
+		}
+
+	} while (enter != 1 && enter != 2);
+
+	out << "Sorted container. " << endl << endl;
+	if (enter == 1) {
+		list.SortByPerimeter(true);
+	}
+	else {
+		list.SortByPerimeter(false);
+	}
+
+	list.PrintElements(out);
+
+	out << endl << endl;
+
 	out << "Empty container. " << endl << endl;
+	list.Clear();
 	list.PrintElements(out);
 
 	cout << "Stop" << endl;

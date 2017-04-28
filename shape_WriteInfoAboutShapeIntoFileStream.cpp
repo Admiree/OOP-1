@@ -5,17 +5,18 @@
 #include "circle.h"
 #include "triangle.h"
 
+
 using namespace std;
 
 namespace shapes {
 	void shape::WriteInfoAboutShapeIntoFileStream(shape *shape, ofstream &outFileStream) {
-
 
 		outFileStream << "It is: ";
 
 		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
 		outFileStream << "; Its color is ";
+
 
 		switch (shape->color) {
 		case 1:
@@ -41,6 +42,9 @@ namespace shapes {
 			break;
 		}
 
+		outFileStream << "; Its plotnost is " << shape->plotn << "  ";
+
+		outFileStream << "; Its perimeter is " << shape->CalculateShapePerimeter();
 
 		outFileStream << ";" << endl;
 	}

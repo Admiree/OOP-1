@@ -5,6 +5,7 @@
 #include "circle.h"
 #include "triangle.h"
 
+
 using namespace std;
 
 namespace shapes {
@@ -12,6 +13,7 @@ namespace shapes {
 		shape *readShape;
 		int key;
 		int color;
+		float plotn;
 
 		inFileStream >> key;
 		inFileStream >> color;
@@ -35,6 +37,8 @@ namespace shapes {
 		readShape->color = color;
 
 		readShape->ReadDimensionsOfShapeFromFileStream(inFileStream);
+		inFileStream >> plotn;
+		readShape->plotn = plotn;
 
 		return readShape;
 	}
