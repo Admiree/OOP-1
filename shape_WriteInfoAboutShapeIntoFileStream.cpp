@@ -40,10 +40,8 @@ namespace shapes {
 			break;
 		}
 
-		//outFileStream << "; Its high is is "<< shape->hight;
 
 		outFileStream << "; Its perimeter is " << shape->CalculateShapePerimeter();
-
 
 		outFileStream << ";" << endl;
 	}

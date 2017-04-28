@@ -20,8 +20,3 @@ List contents 7 elements.
 3: It is: radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its perimeter is 314.159;
 2: It is: start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its perimeter is 880;
 1: It is: start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its perimeter is 880;
-
-
-Empty container. 
-
-List contents 0 elements.

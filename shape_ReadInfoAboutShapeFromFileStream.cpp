@@ -12,6 +12,7 @@ namespace shapes {
 		int key;
 		int color;
 		//int hight;
+		float plotn;
 
 		inFileStream >> key;
 		inFileStream >> color;
