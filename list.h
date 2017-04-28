@@ -11,13 +11,15 @@ namespace shapes {
 		listElement *next = NULL;
 	};
 
-	class list  {
-		listElement *listHead;		
+	class list {
+		listElement *listHead;
 		int listLength;
 	public:
 		void LoadElements(ifstream &inFileStream);
 		void PrintElements(ofstream &outFileStream);
-		void Clear(); 
+		void SortByPerimeter(bool sortByIncrease);
+
+		void Clear();
 		void Init();
 		list() { Init(); };
 		~list() { Clear(); }

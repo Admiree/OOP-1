@@ -6,13 +6,15 @@
 
 using namespace std;
 
-namespace shapes {	
+namespace shapes {
 	shape* shape::ReadInfoAboutShapeFromFileStream(ifstream &inFileStream) {
 		shape *readShape;
 		int key;
-		int _color;
+		int color;
+		//int hight;
+
 		inFileStream >> key;
-		inFileStream >> _color;
+		inFileStream >> color;
 
 		switch (key) {
 		case 1:
@@ -26,10 +28,12 @@ namespace shapes {
 			break;
 		}
 
-		readShape->color = _color;
+		readShape->key = key;
+		readShape->color = color;
 
 		readShape->ReadDimensionsOfShapeFromFileStream(inFileStream);
-
+		//inFileStream >> hight;
+		//readShape->hight = hight;
 		return readShape;
 	}
 }

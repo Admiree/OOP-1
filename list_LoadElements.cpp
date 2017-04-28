@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace shapes {
-	void list::LoadElements(ifstream &inFileStream) {		
+	void list::LoadElements(ifstream &inFileStream) {
 		while (!inFileStream.eof()) {
 			listElement *temp = new listElement;
 			temp->shape = shape::ReadInfoAboutShapeFromFileStream(inFileStream);
@@ -13,4 +13,4 @@ namespace shapes {
 			listLength++;
 		}
 	}
-} 
+}

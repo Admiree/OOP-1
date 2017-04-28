@@ -1,12 +1,27 @@
 Filled container. 
 
-List contents 6 elements.
-6: It is ; Its color is GREEN; And its dimensions are: radius = 32, center X = 54, center Y = 64;
-5: It is ; Its color is BLUE; And its dimensions are: start X = 10, start Y = 65, end X = 43, end Y = 56;
-4: It is ; Its color is MAGNETA; And its dimensions are: radius = 50, center X = 13, center Y = 17;
-3: It is ; Its color is MAGNETA; And its dimensions are: radius = 10, center X = 15, center Y = 20;
-2: It is ; Its color is MAGNETA; And its dimensions are: start X = 10, start Y = 20, end X = 30, end Y = 440;
-1: It is ; Its color is MAGNETA; And its dimensions are: start X = 10, start Y = 20, end X = 30, end Y = 440;
+List contents 7 elements.
+7: It is: radius = 32, center X = 54, center Y = 64; Its color is GREEN; Its perimeter is 201.062;
+6: It is: start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its perimeter is 84;
+5: It is: radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its perimeter is 314.159;
+4: It is: start X = 999, start Y = 999, end X = 999, end Y = 999; Its color is ORANGE; Its perimeter is 0;
+3: It is: radius = 10, center X = 15, center Y = 20; Its color is MAGNETA; Its perimeter is 62.8319;
+2: It is: start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its perimeter is 880;
+1: It is: start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its perimeter is 880;
+
+
+Sorted container. 
+
+List contents 7 elements.
+7: It is: start X = 999, start Y = 999, end X = 999, end Y = 999; Its color is ORANGE; Its perimeter is 0;
+6: It is: radius = 10, center X = 15, center Y = 20; Its color is MAGNETA; Its perimeter is 62.8319;
+5: It is: start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its perimeter is 84;
+4: It is: radius = 32, center X = 54, center Y = 64; Its color is GREEN; Its perimeter is 201.062;
+3: It is: radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its perimeter is 314.159;
+2: It is: start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its perimeter is 880;
+1: It is: start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its perimeter is 880;
+
+
 Empty container. 
 
 List contents 0 elements.
