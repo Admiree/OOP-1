@@ -17,7 +17,9 @@ namespace shapes {
 	public:
 		void LoadElements(ifstream &inFileStream);
 		void PrintElements(ofstream &outFileStream);
-		void PrintRectangleElements(ofstream &outFileStream);
+		void PrintElementsByMask(ofstream &outFileStream, string &menu);
+		void SortByPerimeter();
+
 		void Clear();
 		void Init();
 		list() { Init(); };

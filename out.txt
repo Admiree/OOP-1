@@ -1,25 +1,34 @@
 Filled container. 
 
-List contents 6 elements.
-6: It is Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN;
-5: It is Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE;
-4: It is Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA;
-3: It is Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA;
-2: It is Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA;
-1: It is Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA;
+List contents 7 elements.
+7: It is: Triangle;  It's Dimensions : X = 3, Y = 3, Z = 3; Its color is ORANGE; Its plotnost is 1  ; Its perimeter is 9;
+6: It is: Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN; Its plotnost is 1  ; Its perimeter is 201.062;
+5: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its plotnost is 1  ; Its perimeter is 84;
+4: It is: Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 314.159;
+3: It is: Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 62.8319;
+2: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
+1: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
 
 
-Only Rectangle. 
+Sorted container. 
+
+List contents 7 elements.
+7: It is: Triangle;  It's Dimensions : X = 3, Y = 3, Z = 3; Its color is ORANGE; Its plotnost is 1  ; Its perimeter is 9;
+6: It is: Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 62.8319;
+5: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its plotnost is 1  ; Its perimeter is 84;
+4: It is: Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN; Its plotnost is 1  ; Its perimeter is 201.062;
+3: It is: Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 314.159;
+2: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
+1: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
+
+
+By your mask. 
 
 Here they are.
-It is Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN;
-It is Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE;
-It is Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA;
-It is Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA;
-It is Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA;
-It is Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA;
+It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its plotnost is 1  ; Its perimeter is 84;
+It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
+It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
 
 
 Empty container. 
 
-List contents 0 elements.

@@ -2,6 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include "list.h"
+#include <string>
 
 using namespace std;
 using namespace shapes;
@@ -30,14 +31,35 @@ int main(int argc, char* argv[]) {
 	list.PrintElements(out);
 
 	out << endl << endl;
+	cout << "Done!" << endl;
 
-	out << "Only Rectangle. " << endl << endl;
-	list.PrintRectangleElements(out);
+	out << "Sorted container. " << endl << endl;
+	list.SortByPerimeter();
+
+	list.PrintElements(out);
+
+	out << endl << endl;
+
+	//out << "Empty container. " << endl << endl;
+	//list.Clear();
+	//list.PrintElements(out);
+
+	list.LoadElements(in);
+
+	//out << "Filled container. " << endl << endl;
+
+	string enter;
+
+	cout << "Please, enter (1 - circle; 2 - rectangle; 0 - all of them):" << endl;
+	cin >> enter;
+
+	out << "By your mask. " << endl << endl;
+
+	list.PrintElementsByMask(out, enter);
 
 	out << endl << endl;
 	out << "Empty container. " << endl << endl;
 	list.Clear();
-	list.PrintElements(out);
 
 	cout << "Stop" << endl;
 

@@ -1,18 +1,16 @@
-#include "stdafx.h"
-#ifndef _rectangle
-#define _rectangle
+#ifndef _triangle
+#define _triangle
 
 #include "shape.h"
 
 namespace shapes {
-	class rectangle : public shape {
-		int startX, startY;
-		int endX, endY;
+	class triangle : public shape {
+		int triangleX, triangleY, triangleZ;
 	public:
 		void ReadDimensionsOfShapeFromFileStream(ifstream &inFileStream);
 		void WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream);
 		float CalculateShapePerimeter();
-		rectangle() {}
+		triangle() {}
 	};
 }
 
