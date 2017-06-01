@@ -33,7 +33,6 @@ namespace shapes {
 			break;
 		}
 
-
 		readShape->key = key;
 		readShape->color = color;
 

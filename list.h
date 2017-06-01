@@ -4,20 +4,23 @@
 
 #include "shape.h"
 
-namespace shapes {
+namespace shapes 
+{
 
-	struct listElement {
+	struct listElement 
+	{
 		shape *shape;
 		listElement *next = NULL;
 	};
 
-	class list {
+	class list 
+	{
 		listElement *listHead;
 		int listLength;
 	public:
 		void LoadElements(ifstream &inFileStream);
-		void PrintElements(ofstream &outFileStream);
-		void PrintElementsByMask(ofstream &outFileStream, string &menu);
+		void PrintElements(ostream &outFileStream);
+		void PrintElementsByMask(ostream &outFileStream, string &menu);
 		void SortByPerimeter();
 
 		void Clear();

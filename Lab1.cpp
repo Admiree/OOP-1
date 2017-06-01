@@ -3,68 +3,64 @@
 #include <iostream>
 #include "list.h"
 #include <string>
+#include "windows.h"
 
 using namespace std;
 using namespace shapes;
 
 int main(int argc, char* argv[]) {
 
-	/*ifstream in;
-	in.open("in.txt");
-
-	ofstream out;
-	out.open("out.txt");*/
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 
 	if (argc != 3) {
-		cout << "Incorrect command line! " << "Waited: command in_file out_file" << endl;
+		cout << "Некорректные данные! " << endl;
 		exit(1);
 	}
 	ifstream in(argv[1]);
 	ofstream out(argv[2]);
 
-
-	cout << "Start" << endl;
+	cout << "Старт" << endl;
 
 	list list;
 	list.LoadElements(in);
-	out << "Filled container. " << endl << endl;
+	out << "Полный контейнер. " << endl << endl;
 	list.PrintElements(out);
 
 	out << endl << endl;
-	cout << "Done!" << endl;
+	cout << "Приступаем!" << endl;
 
-	out << "Sorted container. " << endl << endl;
+	out << "Сортированный контейнер. " << endl << endl;
 	list.SortByPerimeter();
 
 	list.PrintElements(out);
 
 	out << endl << endl;
 
-	//out << "Empty container. " << endl << endl;
-	//list.Clear();
-	//list.PrintElements(out);
-
 	list.LoadElements(in);
-
-	//out << "Filled container. " << endl << endl;
 
 	string enter;
 
-	cout << "Please, enter (1 - circle; 2 - rectangle; 0 - all of them):" << endl;
+	cout << "Что бы вы хотели вывести?" << endl;
+	cout << "Пожалуйста, введите (1 - круг; 2 - прямоугольник; 0 - все):" << endl;
 	cin >> enter;
 
-	out << "By your mask. " << endl << endl;
+	out << "Ваши данные. " << endl << endl;
 
 	list.PrintElementsByMask(out, enter);
 
 	out << endl << endl;
-	out << "Empty container. " << endl << endl;
+	out << "Контейнер пуст. " << endl << endl;
 	list.Clear();
 
-	cout << "Stop" << endl;
+	cout << "Выполнено!" << endl;
+	cout << "Стоп" << endl;
 
 	in.close();
 	out.close();
+
+	getchar();
+	getchar();
 
 	return 0;
 }

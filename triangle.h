@@ -3,12 +3,14 @@
 
 #include "shape.h"
 
-namespace shapes {
-	class triangle : public shape {
+namespace shapes 
+{
+	class triangle : public shape 
+	{
 		int triangleX, triangleY, triangleZ;
 	public:
 		void ReadDimensionsOfShapeFromFileStream(ifstream &inFileStream);
-		void WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream);
+		void WriteDimensionsOfShapeIntoFileStream(ostream &outFileStream);
 		float CalculateShapePerimeter();
 		triangle() {}
 	};

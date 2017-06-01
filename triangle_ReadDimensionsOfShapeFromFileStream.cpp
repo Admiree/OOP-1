@@ -3,7 +3,8 @@
 
 using namespace std;
 
-namespace shapes {
+namespace shapes 
+{
 	void triangle::ReadDimensionsOfShapeFromFileStream(ifstream &inFileStream) {
 		inFileStream >> triangleX >> triangleY >> triangleZ;
 	}

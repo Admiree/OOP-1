@@ -4,7 +4,7 @@
 using namespace std;
 
 namespace shapes {
-	void circle::WriteDimensionsOfShapeIntoFileStream(ofstream &outFileStream) {
-		outFileStream << "Circle;  It's Dimensions : " << "radius = " << radius << ", center X = " << centerX << ", center Y = " << centerY;
+	void circle::WriteDimensionsOfShapeIntoFileStream(ostream &outFileStream) {
+		outFileStream << "круг с параметрами : " << "радиус = " << radius << ", центр X = " << centerX << ", центр Y = " << centerY << endl;
 	}
 }

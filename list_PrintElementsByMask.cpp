@@ -5,8 +5,8 @@
 using namespace std;
 
 namespace shapes {
-	void list::PrintElementsByMask(ofstream &outFileStream, string &menu) {
-		outFileStream << "Here they are." << endl;
+	void list::PrintElementsByMask(ostream &outFileStream, string &menu) {
+		outFileStream << "Итого." << endl;
 		listElement *temp = listHead;
 
 		while (temp != NULL) {

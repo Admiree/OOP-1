@@ -4,7 +4,8 @@
 
 using namespace std;
 
-namespace shapes {
+namespace shapes 
+{
 	float triangle::CalculateShapePerimeter() {
 		return triangleX + triangleY + triangleZ;
 	}

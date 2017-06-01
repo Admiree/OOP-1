@@ -9,42 +9,41 @@
 using namespace std;
 
 namespace shapes {
-	void shape::WriteInfoAboutShapeIntoFileStream(shape *shape, ofstream &outFileStream) {
+	void shape::WriteInfoAboutShapeIntoFileStream(shape *shape, ostream &outFileStream) {
 
-		outFileStream << "It is: ";
+		outFileStream << "Ýòî ";
 
 		shape->WriteDimensionsOfShapeIntoFileStream(outFileStream);
 
-		outFileStream << "; Its color is ";
-
+		outFileStream << " Öâåò ";
 
 		switch (shape->color) {
 		case 1:
-			outFileStream << "RED";
+			outFileStream << "ÊÐÀÑÍÛÉ";
 			break;
 		case 2:
-			outFileStream << "ORANGE";
+			outFileStream << "ÎÐÀÍÆÅÂÛÉ";
 			break;
 		case 3:
-			outFileStream << "YELLOW";
+			outFileStream << "ÆÅËÒÛÉ";
 			break;
 		case 4:
-			outFileStream << "GREEN";
+			outFileStream << "ÇÅËÅÍÛÉ";
 			break;
 		case 5:
-			outFileStream << "CYAN";
+			outFileStream << "ÁÈÐÞÇÎÂÛÉ";
 			break;
 		case 6:
-			outFileStream << "BLUE";
+			outFileStream << "ÃÎËÓÁÎÉ";
 			break;
 		case 7:
-			outFileStream << "MAGNETA";
+			outFileStream << "ÔÈÎËÅÒÎÂÛÉ";
 			break;
 		}
 
-		outFileStream << "; Its plotnost is " << shape->plotn << "  ";
+		outFileStream << "; Ïëîòíîñòü ðàâíà " << shape->plotn << "  ";
 
-		outFileStream << "; Its perimeter is " << shape->CalculateShapePerimeter();
+		outFileStream << "; Ïåðèìåòð ðàâåí " << shape->CalculateShapePerimeter();
 
 		outFileStream << ";" << endl;
 	}

@@ -1,34 +1,51 @@
-Filled container. 
+Полный контейнер. 
 
-List contents 7 elements.
-7: It is: Triangle;  It's Dimensions : X = 3, Y = 3, Z = 3; Its color is ORANGE; Its plotnost is 1  ; Its perimeter is 9;
-6: It is: Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN; Its plotnost is 1  ; Its perimeter is 201.062;
-5: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its plotnost is 1  ; Its perimeter is 84;
-4: It is: Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 314.159;
-3: It is: Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 62.8319;
-2: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
-1: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
-
-
-Sorted container. 
-
-List contents 7 elements.
-7: It is: Triangle;  It's Dimensions : X = 3, Y = 3, Z = 3; Its color is ORANGE; Its plotnost is 1  ; Its perimeter is 9;
-6: It is: Circle;  It's Dimensions : radius = 10, center X = 15, center Y = 20; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 62.8319;
-5: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its plotnost is 1  ; Its perimeter is 84;
-4: It is: Circle;  It's Dimensions : radius = 32, center X = 54, center Y = 64; Its color is GREEN; Its plotnost is 1  ; Its perimeter is 201.062;
-3: It is: Circle;  It's Dimensions : radius = 50, center X = 13, center Y = 17; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 314.159;
-2: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
-1: It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
+Всего 7 элементов.
+7: Это треугольник с параметрами : X = 3, Y = 3, Z = 3
+ Цвет ОРАНЖЕВЫЙ; Плотность равна 1  ; Периметр равен 9;
+6: Это круг с параметрами : радиус = 32, центр X = 54, центр Y = 64
+ Цвет ЗЕЛЕНЫЙ; Плотность равна 1  ; Периметр равен 201.062;
+5: Это прямоугольник с параметрами : начало X = 10, начало Y = 65, конец X = 43, конец Y = 56
+ Цвет ГОЛУБОЙ; Плотность равна 1  ; Периметр равен 84;
+4: Это круг с параметрами : радиус = 50, центр X = 13, центр Y = 17
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 314.159;
+3: Это круг с параметрами : радиус = 10, центр X = 15, центр Y = 20
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 62.8319;
+2: Это прямоугольник с параметрами : начало X = 10, начало Y = 20, конец X = 30, конец Y = 440
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 880;
+1: Это прямоугольник с параметрами : начало X = 10, начало Y = 20, конец X = 30, конец Y = 440
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 880;
 
 
-By your mask. 
+Сортированный контейнер. 
 
-Here they are.
-It is: Rectangle;  It's Dimensions : start X = 10, start Y = 65, end X = 43, end Y = 56; Its color is BLUE; Its plotnost is 1  ; Its perimeter is 84;
-It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
-It is: Rectangle;  It's Dimensions : start X = 10, start Y = 20, end X = 30, end Y = 440; Its color is MAGNETA; Its plotnost is 1  ; Its perimeter is 880;
+Всего 7 элементов.
+7: Это треугольник с параметрами : X = 3, Y = 3, Z = 3
+ Цвет ОРАНЖЕВЫЙ; Плотность равна 1  ; Периметр равен 9;
+6: Это круг с параметрами : радиус = 10, центр X = 15, центр Y = 20
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 62.8319;
+5: Это прямоугольник с параметрами : начало X = 10, начало Y = 65, конец X = 43, конец Y = 56
+ Цвет ГОЛУБОЙ; Плотность равна 1  ; Периметр равен 84;
+4: Это круг с параметрами : радиус = 32, центр X = 54, центр Y = 64
+ Цвет ЗЕЛЕНЫЙ; Плотность равна 1  ; Периметр равен 201.062;
+3: Это круг с параметрами : радиус = 50, центр X = 13, центр Y = 17
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 314.159;
+2: Это прямоугольник с параметрами : начало X = 10, начало Y = 20, конец X = 30, конец Y = 440
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 880;
+1: Это прямоугольник с параметрами : начало X = 10, начало Y = 20, конец X = 30, конец Y = 440
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 880;
 
 
-Empty container. 
+Ваши данные. 
+
+Итого.
+Это круг с параметрами : радиус = 10, центр X = 15, центр Y = 20
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 62.8319;
+Это круг с параметрами : радиус = 32, центр X = 54, центр Y = 64
+ Цвет ЗЕЛЕНЫЙ; Плотность равна 1  ; Периметр равен 201.062;
+Это круг с параметрами : радиус = 50, центр X = 13, центр Y = 17
+ Цвет ФИОЛЕТОВЫЙ; Плотность равна 1  ; Периметр равен 314.159;
+
+
+Контейнер пуст. 
 

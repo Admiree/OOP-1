@@ -4,8 +4,8 @@
 using namespace std;
 
 namespace shapes {
-	void list::PrintElements(ofstream &outFileStream) {
-		outFileStream << "List contents " << listLength << " elements." << endl;
+	void list::PrintElements(ostream &outFileStream) {
+		outFileStream << "Всего " << listLength << " элементов." << endl;
 		listElement *temp = listHead;
 		int num = listLength;
 
